@@ -1,0 +1,172 @@
+{
+	"destination": "detailScreen",
+	"rightMargin": 19,
+	"bottomMargin": 20,
+	"menuBar": "メニューバー#1",
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onLosingFocus",
+		"onUnload",
+		"onAfterEdit"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Timer1": {
+					"type": "subform",
+					"top": -1,
+					"left": 287,
+					"width": 228,
+					"height": 135,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSourceTypeHint": "time",
+					"detailForm": "count-down",
+					"focusable": false,
+					"hideFocusRing": true,
+					"deletableInList": false,
+					"doubleClickInRowAction": "editSubrecord",
+					"doubleClickInEmptyAreaAction": "addSubrecord",
+					"selectionMode": "multiple",
+					"printFrame": "variable",
+					"method": "ObjectMethods/Timer1.4dm",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Variable1": {
+					"type": "input",
+					"top": 20,
+					"left": 20,
+					"width": 112,
+					"height": 16,
+					"class": "default",
+					"dragging": "none",
+					"dropping": "custom"
+				},
+				"Variable2": {
+					"type": "input",
+					"top": 60,
+					"left": 20,
+					"width": 112,
+					"height": 16,
+					"class": "default",
+					"dragging": "none",
+					"dropping": "custom"
+				},
+				"Variable3": {
+					"type": "input",
+					"top": 100,
+					"left": 20,
+					"width": 112,
+					"height": 16,
+					"class": "default",
+					"dragging": "none",
+					"dropping": "custom"
+				},
+				"Variable4": {
+					"type": "input",
+					"top": 140,
+					"left": 20,
+					"width": 112,
+					"height": 16,
+					"class": "default",
+					"dragging": "none",
+					"dropping": "custom"
+				},
+				"Variable5": {
+					"type": "input",
+					"top": 180,
+					"left": 20,
+					"width": 112,
+					"height": 16,
+					"class": "default",
+					"dragging": "none",
+					"dropping": "custom"
+				},
+				"Time1": {
+					"type": "text",
+					"top": 20,
+					"left": 146,
+					"width": 90,
+					"height": 20
+				},
+				"Time2": {
+					"type": "text",
+					"top": 60,
+					"left": 146,
+					"width": 90,
+					"height": 20
+				},
+				"Time3": {
+					"type": "text",
+					"top": 100,
+					"left": 146,
+					"width": 90,
+					"height": 20
+				},
+				"Time4": {
+					"type": "text",
+					"top": 140,
+					"left": 146,
+					"width": 90,
+					"height": 20
+				},
+				"Time5": {
+					"type": "text",
+					"top": 180,
+					"left": 146,
+					"width": 90,
+					"height": 20
+				},
+				"OK": {
+					"type": "button",
+					"top": 180,
+					"left": 410,
+					"width": 100,
+					"height": 22,
+					"sizingX": "move",
+					"sizingY": "move",
+					"text": "OK",
+					"focusable": false,
+					"defaultButton": true,
+					"method": "ObjectMethods/OK.4dm",
+					"events": [
+						"onLoad",
+						"onClick"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "ビュー 1",
+		"defaultView": "ビュー 1",
+		"views": {
+			"ビュー 1": {},
+			"ビュー 2": {},
+			"ビュー 3": {},
+			"ビュー 4": {},
+			"ビュー 5": {},
+			"ビュー 6": {},
+			"ビュー 7": {},
+			"ビュー 8": {},
+			"ビュー 9": {}
+		}
+	},
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	}
+}

@@ -1,0 +1,172 @@
+{
+	"destination": "detailScreen",
+	"shared": true,
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onUnload",
+		"onTimer",
+		"onBoundVariableChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		{
+			"objects": {
+				"Frame": {
+					"type": "input",
+					"top": 0,
+					"left": 0,
+					"width": 128,
+					"height": 128,
+					"visibility": "hidden",
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSourceTypeHint": "picture",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"pictureFormat": "proportionalTopLeft",
+					"dragging": "none"
+				}
+			}
+		},
+		{
+			"objects": {
+				"Image": {
+					"type": "input",
+					"top": 0,
+					"left": 0,
+					"width": 128,
+					"height": 128,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSourceTypeHint": "picture",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"pictureFormat": "proportionalTopLeft",
+					"dragging": "none"
+				},
+				"Filter": {
+					"type": "input",
+					"top": 0,
+					"left": 0,
+					"width": 128,
+					"height": 128,
+					"visibility": "hidden",
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSourceTypeHint": "picture",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"pictureFormat": "proportionalTopLeft",
+					"dragging": "none"
+				},
+				"Start": {
+					"type": "input",
+					"top": 0,
+					"left": 0,
+					"width": 0,
+					"height": 0,
+					"dataSourceTypeHint": "number",
+					"focusable": false,
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none"
+				},
+				"StartTime": {
+					"type": "input",
+					"top": 0,
+					"left": 0,
+					"width": 0,
+					"height": 0,
+					"dataSourceTypeHint": "time",
+					"focusable": false,
+					"enterable": false,
+					"contextMenu": "none",
+					"timeFormat": "hh_mm_ss",
+					"dragging": "none",
+					"dropping": "none"
+				},
+				"Elapsed": {
+					"type": "input",
+					"top": 0,
+					"left": 0,
+					"width": 0,
+					"height": 0,
+					"dataSourceTypeHint": "number",
+					"focusable": false,
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none"
+				},
+				"ValueTime": {
+					"type": "input",
+					"top": 0,
+					"left": 0,
+					"width": 0,
+					"height": 0,
+					"dataSourceTypeHint": "time",
+					"focusable": false,
+					"enterable": false,
+					"contextMenu": "none",
+					"timeFormat": "hh_mm_ss",
+					"dragging": "none",
+					"dropping": "none"
+				},
+				"Color": {
+					"type": "input",
+					"top": 0,
+					"left": 0,
+					"width": 0,
+					"height": 0,
+					"dataSourceTypeHint": "number",
+					"focusable": false,
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none"
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "ビュー 1",
+		"defaultView": "ビュー 1",
+		"views": {
+			"ビュー 1": {},
+			"ビュー 2": {
+				"objects": [
+					"Frame",
+					"Filter"
+				]
+			},
+			"ビュー 3": {},
+			"ビュー 4": {},
+			"ビュー 5": {},
+			"ビュー 6": {},
+			"ビュー 7": {},
+			"ビュー 8": {},
+			"ビュー 9": {}
+		}
+	}
+}

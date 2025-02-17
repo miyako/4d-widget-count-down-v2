@@ -1,0 +1,55 @@
+{
+	"Color": {
+		"methods": [
+			"COLOR_HEX_from_long"
+		]
+	},
+	"Count Down": {
+		"groups": [
+			"Private",
+			"Public"
+		]
+	},
+	"Events": {
+		"methods": [
+			"CD_ON_BLUR",
+			"CD_ON_DATA_CHANGE",
+			"CD_ON_FOCUS",
+			"CD_ON_LOAD",
+			"CD_ON_TIMER",
+			"CD_ON_UNLOAD"
+		]
+	},
+	"Private": {
+		"methods": [
+			"CD_SET_ACTIVE",
+			"CD_SET_DIGIT",
+			"CD_SET_VALUE",
+			"CD_SWITCH_OFF",
+			"PAUSE",
+			"RESUME",
+			"SET_COLOR",
+			"START"
+		]
+	},
+	"Public": {
+		"methods": [
+			"CD_Get_color",
+			"CD_PAUSE",
+			"CD_RESUME",
+			"CD_SET_COLOR",
+			"CD_START"
+		]
+	},
+	"Settings": {
+		"methods": [
+			"CD_SET_Direct2D"
+		]
+	},
+	"Widget": {
+		"methods": [
+			"WIDGET_Asserted"
+		]
+	},
+	"trash": {}
+}

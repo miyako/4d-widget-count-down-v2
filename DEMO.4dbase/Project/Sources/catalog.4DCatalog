@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE base SYSTEM "http://www.4d.com/dtd/2007/base.dtd" >
+<base name="DEMO" uuid="CE849EE738C84AE48F3175F1A8BB0041" collation_locale="ja" consider_only_dead_chars_for_keywords="true">
+	<schema name="DEFAULT_SCHEMA"/>
+	<base_extra package_name="DEMO" structure_file_name="DEMO" data_file_path=":DEMO.4DD" last_opening_mode="1">
+		<journal_file journal_file_enabled="false"/>
+	</base_extra>
+</base>
